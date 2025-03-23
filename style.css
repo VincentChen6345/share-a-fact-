@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: oklch(0.268 0.007 34.298);
+  color: oklch(0.985 0.001 106.423);
+  font-family: "Sono", sans-serif;
+  padding: 40px;
+}
+/*layout*/
+.header {
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+.hidden {
+  display: none !important;
+}
+/*elements*/
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+/*descendant selector, selects all images inside the class of logo*/
+.logo img {
+  width: 68px;
+  height: 68px;
+}
+.fact-form {
+  background-color: oklch(0.374 0.01 67.558);
+  margin-bottom: 40px;
+  padding: 16px 40px;
+  text-align: center;
+  border-radius: 10px;
+  /* height: 72px; */
+}
+h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  font-family: "Coiny", sans-serif;
+  margin-top: 6px;
+}
+.fact {
+  font-size: 20px;
+  line-height: 1.4;
+  background-color: oklch(0.374 0.01 67.558);
+  margin-bottom: 16px;
+  padding: 16px;
+  /* border: 4px solid red; *width style colour*/
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  letter-spacing: -1px;
+}
+.tag {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Coiny", sans-serif;
+  margin: 50px;
+  padding: 3px 10px 0px 10px; /*top right bottom left*/
+  border-radius: 10px;
+}
+.technology {
+  background-color: #3b82f6;
+}
+.society {
+  background-color: #eab308;
+}
+ul {
+  list-style: none;
+}
+button {
+  margin-right: 10px;
+  height: 40px;
+  border-radius: 50px;
+  outline-style: none;
+}
+.btn-open {
+  font-size: 16px;
+}
+.vote-buttons {
+  margin-left: auto;
+}
+
+/*main layout*/
+.container {
+  max-width: 1000px;
+  height: 100%;
+
+  /* background-color: goldenrod; */
+  margin: 0 auto; /*top/bottom left/right */
+}
+.input {
+  height: 40px;
+  border-radius: 50px;
+  font-size: 18px;
+}
+.share-fact {
+  display: inline;
+}
+
+.post-btn {
+  padding: 0;
+  outline: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+}
