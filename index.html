@@ -35,14 +35,28 @@
           <option value="science">Science</option>
           <option value="finance">Finance</option>
         </select>
-        <button class="post-btn">Post</button>
+        <button class="btn btn-post">Post</button>
       </form>
       <main class="main">
         <aside>
           <ul>
-            <li><button>All</button></li>
-            <li><button>Technology</button></li>
-            <li><button>Science</button></li>
+            <li><button class="btn btn-all-categories">All</button></li>
+            <li>
+              <button
+                class="btn btn-category"
+                style="background-color: #3b82f6"
+              >
+                Technology
+              </button>
+            </li>
+            <li>
+              <button
+                class="btn btn-category"
+                style="background-color: #16a34a"
+              >
+                Science
+              </button>
+            </li>
           </ul>
         </aside>
         <section>
@@ -53,15 +67,14 @@
                 <a
                   href="https://opensource.fb.com/"
                   target="_blank"
-                  class="link"
+                  class="source"
                   >(Source)</a
                 >
               </p>
-              <span class="tag technology">#technology#</span>
+              <span class="tag technology">technology</span>
               <div class="vote-buttons">
-                <button>👍 <strong>24</strong></button
-                ><button>🤯 <strong>9</strong></button
-                ><button>⛔️ <strong>4</strong></button>
+                <button>👍 24</button><button>🤯 9</button
+                ><button>⛔️ 4</button>
               </div>
             </li>
 
@@ -73,14 +86,14 @@
                 <a
                   href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
                   target="_blank"
+                  class="source"
                   >(source)</a
                 >
               </p>
-              <span class="tag society">#society#</span>
+              <span class="tag society">society</span>
               <div class="vote-buttons">
-                <button>👍 <strong>11</strong></button
-                ><button>🤯 <strong>2</strong></button
-                ><button>⛔️ <strong>0</strong></button>
+                <button>👍 11</button><button>🤯 2</button
+                ><button>⛔️ 0</button>
               </div>
             </li>
           </ul>
