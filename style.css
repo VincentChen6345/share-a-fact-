@@ -183,3 +183,31 @@ select {
   background-color: oklch(0.268 0.007 34.298);
   transition: all 0.2s ease-in;
 }
+
+@media (max-width: 1136px) {
+  .fact {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+  }
+  .tag {
+    margin-top: 15px;
+    margin-left: auto;
+  }
+  .fact-form {
+    flex-direction: column;
+    gap: 22px;
+  }
+  .fact-form > * {
+    width: 100%;
+  }
+}
+@media (max-width: 819px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-category {
+    width: 100%;
+  }
+}
