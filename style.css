@@ -197,9 +197,7 @@ select {
   .fact-form {
     flex-direction: column;
     gap: 22px;
-  }
-  .fact-form > * {
-    width: 100%;
+    align-items: stretch;
   }
 }
 @media (max-width: 819px) {
