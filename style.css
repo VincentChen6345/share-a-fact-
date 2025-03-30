@@ -197,9 +197,13 @@ select {
   .fact-form {
     flex-direction: column;
     gap: 22px;
+<<<<<<< HEAD
   }
   .fact-form > * {
     width: 100%;
+=======
+    align-items: stretch;
+>>>>>>> recovered-branch
   }
 }
 @media (max-width: 819px) {
